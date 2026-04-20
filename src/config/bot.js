@@ -5,7 +5,7 @@ export const botConfig = {
   // =========================
   // BOT PREFIX
   // =========================
-  prefix: "/",prefix: "!!"
+  prefix: "/",
 
   // =========================
   // BOT PRESENCE (what users see under the bot name)
@@ -15,7 +15,7 @@ export const botConfig = {
   // - "idle"      = yellow moon
   // - "dnd"       = red do-not-disturb
   // - "invisible" = appears offline
-  presence: {
+  presence: {dnd}
     // Current online state shown on Discord.
     status: "online",
 
@@ -28,9 +28,9 @@ export const botConfig = {
     // 4 = Custom
     // 5 = Competing
     activities: [
-      {
+      {4=Helping out the 7th HiCOM 🫡}
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Helping out the 7th HiCOM 🫡 ",
+        name: "",
         // Activity type number (0 = Playing).
         type: 0, 
       },
